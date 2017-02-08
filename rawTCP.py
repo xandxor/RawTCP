@@ -32,7 +32,7 @@ except socket.error , msg:
 # now start constructing the packet
 packet = '';
  
-source_ip = '192.168.128.200'
+source_ip = '192.168.1.100'
 dest_ip = '192.168.1.1' # or socket.gethostbyname('www.google.com')
  
 # ip header fields
